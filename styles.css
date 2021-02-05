@@ -11,6 +11,10 @@ body {
   padding: 0px;
 }
 
+.project {
+  margin: 70px;
+}
+
 .projects {
   background-color: yellow;
   padding: 10px;
