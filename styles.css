@@ -1,36 +1,71 @@
+
+
 body {
   text-align: center;
   margin: 0px;
-  font-family: "Comic Sans MS";
+  font-family: "Montserrat";
 }
 
 .about {
 
-  background-color: skyblue;
-
-  padding: 0px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 2px black;
 }
 
 .project {
   margin: 0px;
-  display: inline-block;
+  width: 33%;
+  display:inline-block;
 }
 
 .projects {
-  background-color: yellow;
+  background-color: white;
   padding: 10px;
+  box-shadow: 0px 0px 10px 2px black;
+
 }
 
 .project-content {
-  display: inline-block;
-  text-align: left;
+
+  text-align: center;
   vertical-align: top;
-  margin: 45px 0px 50px 0px;
+  margin: 0px 10px 0px 10px;
 }
 
-.project-thumbnail {
-  display: inline-block;
-  height: 256px;
-  margin-right: 0px;
-  margin-left: 0px;
+
+.container img {
+  width: 100%;
+  height: auto;
+
+  margin-bottom: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: skyblue;
+
+
+}
+
+.overlay {
+  position: absolute;
+  transition: all 0.1s ease;
+  opacity: 0;
+  background-color:#008CBA;
+}
+
+.container:hover .overlay {
+opacity: 0.5;
+}
+
+.overlayFade {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: red;
+
 }
