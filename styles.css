@@ -12,7 +12,7 @@ body {
 }
 
 .project {
-  margin: 70px;
+  margin: 0px;
   display: inline-block;
 }
 
@@ -25,10 +25,12 @@ body {
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  margin: 45px 50px 50px 50px;
+  margin: 45px 0px 50px 0px;
 }
 
 .project-thumbnail {
   display: inline-block;
   height: 256px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
