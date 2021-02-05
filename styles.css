@@ -13,6 +13,7 @@ body {
 
 .project {
   margin: 70px;
+  display: inline-block;
 }
 
 .projects {
