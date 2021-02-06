@@ -1,5 +1,3 @@
-
-
 body {
   text-align: center;
   margin: 0px;
@@ -7,59 +5,55 @@ body {
 }
 
 .about {
-
-  background-color: black;
-  color: white;
-  padding: 10px;
-  box-shadow: 0px 0px 10px 2px black;
-}
-
-.project {
-  margin: 0px;
-  width: 33%;
-  display:inline-block;
+  background-color: white;
+  font-size: 55px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 .projects {
   background-color: white;
-  padding: 10px;
-  box-shadow: 0px 0px 10px 2px black;
 
 }
 
-.project-content {
 
-  text-align: center;
-  vertical-align: top;
-  margin: 0px 10px 0px 10px;
+/*.project-content {
+
+} */
+
+.container {
+  position: relative;
+  height: 37%;
+  background-color: skyblue;
+  border-radius: 30px;
+
+  width: 25%;
+  display:inline-block;
+  margin: 10px;
+  min-width: 300px;
+
+
 }
-
 
 .container img {
   width: 100%;
   height: auto;
-
-  margin-bottom: 0;
+  margin-top: 30px;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-color: skyblue;
 
-
-}
 
 .overlay {
   position: absolute;
   transition: all 0.1s ease;
   opacity: 0;
-  background-color:#008CBA;
+  border-radius: 30px;
 }
 
 .container:hover .overlay {
 opacity: 0.5;
+border-radius: 30px;
 }
 
 .overlayFade {
@@ -67,5 +61,5 @@ opacity: 0.5;
   width: 100%;
   top: 0;
   background-color: red;
-
+  border-radius: 30px;
 }
