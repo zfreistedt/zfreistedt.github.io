@@ -2,36 +2,42 @@
   <!-- Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
+  <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/96bf6369f0.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+
   <!-- This will show up on the tab in your browser -->
   <title>My Portfolio</title>
+
 
   <!-- This links your css file to the html -->
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 
 <body>
   <!-- This is the start of the "About" section -->
   <div class="about">
     <h1>Zach Freistedt</h1>
   </div>
+
   <p style = "font-size: 40px">Welcome to my portfolio!</p>
+
   <!-- This is the start of the projects section -->
   <div class="projects">
     <h1>Check out some coding doodles I've been working on!</h1>
 
       <!-- Project 1-->
-
-        <!-- This is the project image -->
         <div class = "container">
 
-          <div class="project-content">
-            <h1 class="project-name">To Do List</h1>
-            <h3>Get organized!</h3>
-          </div>
+          <i class="fas fa-clipboard-list project-logo"></i>
 
           <a href= "https://megwynnemusic.com">
             <div class="overlay overlayFade">
-              <img class="image" src="imgs/JustPiano.png">
+              <i class="fas fa-clipboard-list project-logo"></i>
+                <p class="project-name">To Do List</p>
+                <p>Get Organized!</p>
             </div>
           </a>
 
@@ -39,41 +45,35 @@
 
 
       <!-- Project 2-->
+      <div class = "container">
 
-        <!-- This is the project image -->
-        <div class = "container">
+        <i class="fas fa-ice-cream project-logo"></i>
 
-          <div class="project-content">
-            <h1 class="project-name">Ice Cream Maker</h1>
-            <h3>Build your own frozen treat!</h3>
-          </div>
-
-          <a href= "https://megwynnemusic.com">
-            <div class="overlay overlayFade">
-              <img class="image" src="imgs/JustPiano.png">
-            </div>
-          </a>
-
+      <a href= "https://megwynnemusic.com">
+        <div class="overlay overlayFade">
+          <i class="fas fa-ice-cream project-logo"></i>
+            <p class="project-name">Ice Cream Maker</p>
+            <p>Build Your Own Frozen Treat!</p>
         </div>
+      </a>
+
+    </div>
 
 
-    <!-- Project 3-->
+    <!-- Project 2-->
+    <div class = "container">
 
-        <!-- This is the project image -->
-        <div class = "container">
+      <i class="fas fa-tree project-logo"></i>
 
-          <div class="project-content">
-            <h1 class="project-name">Park Locator</h1>
-            <h3>Find the open spac</h3>
-          </div>
+    <a href= "https://megwynnemusic.com">
+      <div class="overlay overlayFade">
+        <i class="fas fa-tree project-logo"></i>
+          <p class="project-name">Park Locator</p>
+          <p>Find a place to get outside!</p>
+      </div>
+    </a>
 
-          <a href= "https://megwynnemusic.com">
-            <div class="overlay overlayFade">
-              <img class="image" src="imgs/JustPiano.png">
-            </div>
-          </a>
-
-        </div>
+  </div>
 
   </div>
 </body>
